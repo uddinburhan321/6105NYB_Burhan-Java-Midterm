@@ -3,6 +3,7 @@ package codelab.util;
 import codelab.Student;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -21,7 +22,8 @@ public class CsvReader {
 
     public static void main(String[] args) {
 
-        String csvFilePath = System.getProperty("user.dir") + "\\src\\codelab\\data\\roster.csv";
+        String csvFilePath = System.getProperty("user.dir") +
+        File.separator + "src" + File.separator + "codelab" + File.separator + "data" + File.separator + "roster.csv";
         String row;
         String csvSplitBy = ",";
         BufferedReader br;
