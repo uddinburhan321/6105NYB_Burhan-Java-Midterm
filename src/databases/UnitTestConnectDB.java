@@ -22,16 +22,16 @@ public class UnitTestConnectDB {
 //        String result = ssdb.executeQueryReadOne(query);
 //
 //        System.out.println(result);
-//        // endregion
+        // endregion
 
         // region executeQueryReadAllSingleColumn
-//        String queryTwo = "SELECT * FROM EMPLOYEES.EMPLOYEES LIMIT 10";
+//        String queryTwo = "SELECT * FROM SAKILA.ACTOR LIMIT 10";
 //        List<String> results = ssdb.executeQueryReadAllSingleColumn(queryTwo, 3);
 //
 //        for (String s : results) {
 //            System.out.println(s);
 //        }
-//
+
         // endregion
 
         // region executeQueryReadAll
@@ -49,13 +49,13 @@ public class UnitTestConnectDB {
 //                System.out.println();
 //            }
 //        }
-//
+
         // endregion
 
         // region InsertString
 //        ssdb.insertString("test_insert_string", "test_string", "Sami loves Aamna");
 //        System.out.println(ssdb.executeQueryReadAllSingleColumn("SELECT * FROM TEST_INSERT_STRING", 2).get(0));
-//
+
         // endregion
 
         // region insertList
